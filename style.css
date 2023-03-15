@@ -1,0 +1,119 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: #0a1f44;
+    color: white;
+}
+
+h1 {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+}
+
+button,
+input {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: #ff1e42;
+}
+
+button:hover {
+    background: #c3112d;
+    cursor: pointer;
+}
+
+.container {
+    background-color: rgb(170, 170, 170);
+    color: #1e2432;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 50px;
+    visibility : hidden;
+    margin: 50px auto;
+}
+
+.error{
+    color: #fff;
+    width: 300px;
+    height: 90px;
+    margin-left: 50px;
+    margin: 50px auto;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.ciudades {
+    padding: 40px 10%; 
+}
+
+#ciudad {
+    font-size: 2rem;
+}
+
+#temperatura {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+sup {
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+img {
+    width: 4rem;
+}
+
+.encabezado {
+    text-align: center;
+}
+
+#descripcion {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    grid-area: descripcion;
+}
+
+#max-min{
+    grid-area: max-min;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    grid-area: img;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "img max-min" "img descripcion";
+}
+
