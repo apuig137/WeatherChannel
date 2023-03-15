@@ -120,5 +120,6 @@ img{
 @media (max-width: 450px){
     input{
         width: 250px;
+        font-size: 25px;
     }
 }
