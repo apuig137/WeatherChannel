@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    margin-top: 50px;
+    margin-top: 100px;
     font-weight: bold;
     font-size: 4rem;
     letter-spacing: 0.02em;
@@ -49,7 +49,7 @@ button:hover {
     background-color: rgb(170, 170, 170);
     color: #1e2432;
     width: 300px;
-    height: 350px;
+    height: 250px;
     border-radius: 20px;
     margin-left: 50px;
     visibility : hidden;
@@ -117,3 +117,8 @@ img{
     grid-template-areas: "img max-min" "img descripcion";
 }
 
+@media (max-width: 450px){
+    input{
+        width: 250px;
+    }
+}
