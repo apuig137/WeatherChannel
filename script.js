@@ -17,7 +17,7 @@ let cargarCiudad = (ciudadElegida) => {
                 let {name, main:{temp, temp_min, temp_max}, weather:[arr], sys:{country}} = data
                 error.style.display = "none"
                 container.style.visibility = "visible"
-                document.querySelector("#ciudad").textContent = name
+                document.querySelector("#ciudad").textContent = `${name}, ${country}`
                 document.querySelector("#temperatura").textContent = parseInt(temp-273.15) + "°C"
                 document.querySelector("#wicon").src = `https://openweathermap.org/img/wn/${arr.icon}@2x.png`
                 document.querySelector("#descripcion").textContent = arr.description
