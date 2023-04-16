@@ -49,11 +49,12 @@ button:hover {
     background-color: rgb(170, 170, 170);
     color: #1e2432;
     width: 350px;
-    height: 250px;
+    height: 350px;
     border-radius: 20px;
     margin-left: 50px;
     visibility : hidden;
     margin: 50px auto;
+    display: flex;
 }
 
 .error{
@@ -72,7 +73,7 @@ button:hover {
     padding: 40px 10%; 
 }
 
-#ciudad {
+#ciudad, #pais{
     font-size: 2rem;
 }
 
