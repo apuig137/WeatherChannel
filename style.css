@@ -46,7 +46,7 @@ button:hover {
 }
 
 button:focus {
-    outline: 1px solid #fff;
+    outline: 0;
 }
 
 .container {
