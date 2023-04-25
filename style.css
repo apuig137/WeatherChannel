@@ -45,6 +45,10 @@ button:hover {
     cursor: pointer;
 }
 
+button:focus {
+    outline: 1px solid #fff;
+}
+
 .container {
     background-color: rgb(170, 170, 170);
     color: #1e2432;
